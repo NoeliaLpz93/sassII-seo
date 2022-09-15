@@ -1,0 +1,14 @@
+@mixin reset{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+};
+
+@mixin tamano ($ancho) {
+    width: $ancho;
+}
+ .card.mt-3{
+    @include tamano(18rem);
+}
+
+    

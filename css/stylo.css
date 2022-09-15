@@ -1,0 +1,82 @@
+* {
+  margin: 0px;
+  padding: 0px; }
+
+section h2 {
+  background-color: #f8f8a9; }
+
+.bg-Lxs {
+  background-color: antiquewhite; }
+
+h1 {
+  background-color: #f8f8a9; }
+
+main div h1 h5 p {
+  font-size: 2rem; }
+
+main div h1 h5 a {
+  width: 30px;
+  height: 20px;
+  background-color: #f7b893; }
+
+.card.mt-3 {
+  width: 18rem; }
+
+.nav-link {
+  -webkit-animation: slide-bck-center 0.45s cubic-bezier(0.47, 0, 0.745, 0.715) both;
+  animation: slide-bck-center 0.45s cubic-bezier(0.47, 0, 0.745, 0.715) both; }
+
+@-webkit-keyframes slide-bck-center {
+  0% {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0); }
+  100% {
+    -webkit-transform: translateZ(-400px);
+    transform: translateZ(-400px); } }
+
+@keyframes slide-bck-center {
+  0% {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0); }
+  100% {
+    -webkit-transform: translateZ(-400px);
+    transform: translateZ(-400px); } }
+
+/* footer */
+footer {
+  width: 100%;
+  background-color: antiquewhite;
+  height: 100%;
+  margin-top: 0px;
+  display: flex;
+  justify-content: center; }
+
+.anchofooter, .card.mt-3 {
+  margin-top: 30px;
+  background-color: antiquewhite; }
+
+.redes {
+  display: inline-block; }
+
+.redes-instagram {
+  background-color: #c46fb6; }
+
+.redes-whatsapp {
+  background-color: #36fd36; }
+
+body {
+  font-family: 'Merriweather', serif; }
+
+/*nosotros.html*/
+.nosotros {
+  margin: 0 auto;
+  width: 80%;
+  text-align: center;
+  background-position: center; }
+
+.Nosotros-img {
+  text-align: center; }
+
+/*** TRANSFORMS ***/
+.card.mt-3:hover {
+  transform: scale(1.1) translateY(-60px); }

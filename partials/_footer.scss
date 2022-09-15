@@ -1,0 +1,25 @@
+  /* footer */
+  footer {
+    width: 100%;
+    background-color: antiquewhite;
+    height: 100%;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center; }
+    .anchofooter {
+        margin-top: 30px;
+        background-color: antiquewhite; }
+      
+      .redes {
+        display: inline-block; }
+    
+    $redes: (
+        instagram: #c46fb6,
+        whatsapp:  #36fd36
+    );
+    @each $redsocial, $colordered in $redes {
+        .redes-#{$redsocial} {
+            background-color: $colordered;
+        }
+        
+    }
